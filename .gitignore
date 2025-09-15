@@ -1,0 +1,30 @@
+# OS
+.DS_Store
+
+# IDE / Editors
+.vscode/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.unityproj
+
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild*/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+mono_crash.*.json
+
+# Asset Store packages
+*.unitypackage
+
+# Crash/Download folders
+downloads/
+
+# Ignore staging/imported packs
+Assets/_RawImports/
+Assets/_RawImports.meta
