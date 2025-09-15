@@ -1,0 +1,13 @@
+# ==== LFS for curated game assets only ====
+
+# Textures
+Assets/Game/**/**/*.{png,jpg,jpeg,tga,psd,exr,hdr} filter=lfs diff=lfs merge=lfs -text
+
+# Models
+Assets/Game/**/**/*.{fbx,obj,blend}                filter=lfs diff=lfs merge=lfs -text
+
+# Audio
+Assets/Game/**/**/*.{wav,mp3,ogg}                   filter=lfs diff=lfs merge=lfs -text
+
+# Unity binary-ish assets (only if you store these)
+Assets/Game/**/**/*.{unity,prefab,mat,anim,controller} filter=lfs diff=lfs merge=lfs -text
